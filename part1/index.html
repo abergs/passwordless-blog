@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Passwordless Minimal</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Passwordless Minimal demo</h2>
+  <p>To run this example you don't have to do anything other than supply a unique alias.</p>
+  
+  <input type="text" id="alias" placeholder="Unique Username, email" />
+  <button id="passwordless-register">Register</button>
+  <button id="passwordless-signin">Login</button>
+  <pre id="status"></pre>
+  <script src="https://cdn.passwordless.dev/dist/0.2.0/passwordless.iife.js" crossorigin="anonymous"></script>
+  <script src="auth.js"></script>
+</body>
+
+</html>
